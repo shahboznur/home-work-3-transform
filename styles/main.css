@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    width: 900px;
+    height: 490px;
+    margin:  auto;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+ul li {
+    width: 280px;
+    height: 200px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 15px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+.translate:hover {
+    transform: translate(50px, 50px);
+}
+
+.rotate:hover {
+    transform: rotate(20deg);
+}
+
+.scale:hover {
+    transform: scale(0.4);
+    
+  }
+
+.skewX:hover {
+    transform: skewX(20deg);
+}
+
+.skewY:hover {
+    transform: skewY(20deg);
+}
+
+.matrix:hover {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
